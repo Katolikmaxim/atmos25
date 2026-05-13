@@ -71,9 +71,29 @@ margin-top:50px;
 
 .card{
 background:white;
-padding:30px;
+padding:20px;
 border-radius:20px;
 box-shadow:0 10px 30px rgba(0,0,0,0.1);
+transition:0.3s;
+overflow:hidden;
+}
+
+.card:hover{
+transform:translateY(-5px);
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:14px;
+margin-bottom:15px;
+transition:0.3s;
+}
+
+.card:hover img{
+transform:scale(1.05);
 }
 
 .card h3{
@@ -188,6 +208,40 @@ WhatsApp
 <div class="container">
 
 <h2 class="section-title">Что предлагаем</h2>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Наши работы / Примеры кондиционеров</h2>
+    <div class="features">
+
+      <div class="card">
+        <img src="images/kond1.jpg" alt="Кондиционер настенный" width="100%">
+        <h3>Настенный кондиционер</h3>
+        <p>Компактный и тихий, идеально для квартиры.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/kond2.jpg" alt="Кондиционер для офиса" width="100%">
+        <h3>Кондиционер для офиса</h3>
+        <p>Мощный, энергоэффективный, поддержка больших помещений.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/kond3.jpg" alt="Инверторный кондиционер" width="100%">
+        <h3>Инверторный кондиционер</h3>
+        <p>Современный дизайн, тихая работа, экономия электроэнергии.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/kond4.jpg" alt="Монтаж кондиционера" width="100%">
+        <h3>Монтаж под ключ</h3>
+        <p>Полная установка с гарантией качества и настройкой.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 <div class="features">
 
