@@ -4,30 +4,32 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>АТМОС — Кондиционеры и водонагреватели Владивосток</title>
+<title>Кондиционеры Владивосток | АТМОС — установка и монтаж</title>
 
-<meta name="description" content="Установка кондиционеров и водонагревателей во Владивостоке. Монтаж под ключ с гарантией.">
-<meta name="keywords" content="кондиционеры Владивосток, установка кондиционеров, монтаж кондиционеров">
+<meta name="description" content="АТМОС — установка кондиционеров и водонагревателей во Владивостоке. Монтаж под ключ за 1 день. Гарантия. Бесплатная консультация.">
+<meta name="keywords" content="кондиционеры Владивосток, установка кондиционеров Владивосток, монтаж кондиционеров, водонагреватели Владивосток">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://атмос25.рф/">
 
-<link rel="icon" href="favicon.png?v=2" type="image/png">
+<!-- FAVICON -->
+<link rel="icon" href="favicon.png?v=3" type="image/png">
+
+<!-- OPEN GRAPH (для соцсетей) -->
+<meta property="og:title" content="АТМОС — кондиционеры Владивосток">
+<meta property="og:description" content="Установка кондиционеров и водонагревателей во Владивостоке. Монтаж под ключ.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://атмос25.рф/">
+<meta property="og:image" content="images/kond4.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 
 <style>
-
-*{
+body {
 margin:0;
-padding:0;
-box-sizing:border-box;
-}
-
-body{
 font-family:'Montserrat',sans-serif;
 background:linear-gradient(135deg,#f0c9dc,#c88bd8);
 color:#000;
-line-height:1.6;
 }
 
 .container{
@@ -51,20 +53,10 @@ align-items:center;
 gap:60px;
 }
 
-.hero-content{
-max-width:650px;
-}
+.hero-content{max-width:650px;}
 
-.logo-symbol{
-font-size:110px;
-line-height:1;
-}
-
-.logo{
-font-size:72px;
-font-weight:800;
-margin-bottom:10px;
-}
+.logo-symbol{font-size:110px;}
+.logo{font-size:72px;font-weight:800;}
 
 h1{
 font-size:52px;
@@ -72,87 +64,23 @@ margin-bottom:20px;
 }
 
 .subtitle{
-font-size:24px;
-margin-bottom:15px;
+font-size:22px;
 opacity:0.85;
+margin-bottom:20px;
 }
 
-/* BUTTONS */
 .buttons{
-display:flex;
-gap:15px;
 margin-top:20px;
-flex-wrap:wrap;
 }
 
 .btn{
-padding:16px 28px;
-border-radius:16px;
-text-decoration:none;
-font-weight:700;
 display:inline-block;
-transition:0.3s;
-box-shadow:0 10px 25px rgba(0,0,0,0.12);
-}
-
-.btn-black{
+padding:16px 28px;
+border-radius:14px;
 background:#000;
 color:#fff;
-}
-
-.btn:hover{
-transform:translateY(-3px);
-}
-
-/* MESSENGERS */
-.consult-block{
-margin-top:18px;
-}
-
-.consult-title{
-font-size:18px;
-font-weight:700;
-margin-bottom:10px;
-opacity:0.85;
-}
-
-.messengers{
-display:flex;
-gap:12px;
-flex-wrap:wrap;
-}
-
-.messenger-link{
-display:flex;
-align-items:center;
-gap:8px;
-padding:10px 14px;
-border-radius:12px;
-background:rgba(255,255,255,0.75);
-box-shadow:0 8px 20px rgba(0,0,0,0.08);
-font-size:14px;
-font-weight:600;
 text-decoration:none;
-color:#000;
-transition:0.25s;
-}
-
-.messenger-link:hover{
-transform:translateY(-3px);
-background:rgba(255,255,255,0.95);
-}
-
-.messenger-link img{
-width:18px;
-height:18px;
-}
-
-/* HERO IMAGE */
-.hero-image img{
-width:100%;
-max-width:520px;
-border-radius:25px;
-box-shadow:0 30px 80px rgba(0,0,0,0.25);
+font-weight:700;
 }
 
 /* SECTIONS */
@@ -161,8 +89,8 @@ padding:90px 0;
 }
 
 .section-title{
-font-size:40px;
 text-align:center;
+font-size:38px;
 margin-bottom:40px;
 font-weight:800;
 }
@@ -174,26 +102,13 @@ gap:20px;
 }
 
 .card{
-background:rgba(255,255,255,0.85);
-padding:20px;
+background:#fff;
 border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.08);
-transition:0.3s;
+padding:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
-.card:hover{
-transform:translateY(-5px);
-}
-
-.card img{
-width:100%;
-height:220px;
-object-fit:cover;
-border-radius:14px;
-margin-bottom:15px;
-}
-
-/* CONTACTS */
+/* CONTACT */
 .contacts{
 text-align:center;
 font-size:20px;
@@ -201,40 +116,20 @@ font-size:20px;
 
 /* FOOTER */
 .footer{
-padding:40px 0;
 text-align:center;
+padding:40px;
 opacity:0.6;
 }
 
 /* MOBILE */
 @media(max-width:768px){
-
 .hero-wrapper{
 flex-direction:column;
 text-align:center;
-gap:25px;
 }
-
-h1{font-size:28px;}
+h1{font-size:30px;}
 .logo{font-size:44px;}
-.logo-symbol{font-size:70px;}
-.subtitle{font-size:18px;}
-
-.buttons{
-flex-direction:column;
 }
-
-.btn{
-width:100%;
-text-align:center;
-}
-
-.section-title{
-font-size:26px;
-}
-
-}
-
 </style>
 </head>
 
@@ -242,92 +137,83 @@ font-size:26px;
 
 <!-- HERO -->
 <section class="hero">
-  <div class="container hero-wrapper">
+<div class="container hero-wrapper">
 
-    <div class="hero-content">
+<div class="hero-content">
 
-      <div class="logo-symbol">△</div>
-      <div class="logo">АТМОС</div>
+<div class="logo-symbol">△</div>
+<div class="logo">АТМОС</div>
 
-      <h1>Кондиционеры и водонагреватели во Владивостоке</h1>
+<h1>Кондиционеры во Владивостоке с установкой под ключ</h1>
 
-      <p class="subtitle">
-        Там, где комфорт — не роскошь, а норма.
-      </p>
+<p class="subtitle">
+Профессиональный монтаж кондиционеров и водонагревателей во Владивостоке за 1 день.
+</p>
 
-      <div class="buttons">
-        <a class="btn btn-black" href="tel:+79240006030">
-          Позвонить: +7 924 000-60-30
-        </a>
-      </div>
+<div class="buttons">
+<a class="btn" href="tel:+79240006030">
+Позвонить: +7 924 000-60-30
+</a>
+</div>
 
-      <div class="consult-block">
+</div>
 
-        <div class="consult-title">Бесплатная консультация</div>
+<div>
+<img src="images/kond4.jpg" alt="Установка кондиционеров Владивосток" style="max-width:500px;border-radius:20px;">
+</div>
 
-        <div class="messengers">
-
-          <a class="messenger-link"
-             href="https://wa.me/79240006030"
-             target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
-            WhatsApp
-          </a>
-
-          <a class="messenger-link"
-             href="https://t.me/"
-             target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg">
-            Telegram
-          </a>
-
-          <div class="messenger-link">MAX</div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="hero-image">
-      <img src="images/kond4.jpg" alt="Кондиционеры Владивосток">
-    </div>
-
-  </div>
+</div>
 </section>
 
-<!-- SECTION -->
+<!-- SERVICES -->
 <section class="section">
-  <div class="container">
+<div class="container">
 
-    <h2 class="section-title">Что у нас есть для Вас?</h2>
+<h2 class="section-title">Услуги</h2>
 
-    <div class="features">
-      <div class="card"><img src="images/kond1.jpg"><h3>Настенный</h3></div>
-      <div class="card"><img src="images/kond2.jpg"><h3>Офис</h3></div>
-      <div class="card"><img src="images/kond3.jpg"><h3>Инвертор</h3></div>
-      <div class="card"><img src="images/kond4.jpg"><h3>Монтаж</h3></div>
-    </div>
+<div class="features">
 
-  </div>
+<div class="card">
+<h3>Кондиционеры</h3>
+<p>Подбор и установка кондиционеров под ключ.</p>
+</div>
+
+<div class="card">
+<h3>Водонагреватели</h3>
+<p>Монтаж и подключение оборудования.</p>
+</div>
+
+<div class="card">
+<h3>Монтаж</h3>
+<p>Быстрая установка за 1 день.</p>
+</div>
+
+<div class="card">
+<h3>Консультация</h3>
+<p>Помогаем выбрать оборудование под бюджет.</p>
+</div>
+
+</div>
+
+</div>
 </section>
 
 <!-- CONTACTS -->
 <section class="section">
-  <div class="container">
+<div class="container">
 
-    <h2 class="section-title">Контакты</h2>
+<h2 class="section-title">Контакты</h2>
 
-    <div class="contacts">
-      <p>+7 924 000-60-30</p>
-      <p>Владивосток</p>
-    </div>
+<div class="contacts">
+<p>📞 +7 924 000-60-30</p>
+<p>📍 Владивосток</p>
+</div>
 
-  </div>
+</div>
 </section>
 
 <footer class="footer">
-АТМОС © 2026
+АТМОС © 2026 — кондиционеры Владивосток
 </footer>
 
 </body>
