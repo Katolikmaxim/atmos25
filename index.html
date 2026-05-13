@@ -6,23 +6,16 @@
 
 <title>АТМОС — Установка кондиционеров Владивосток</title>
 
-<!-- SEO -->
-<meta name="description" content="Установка кондиционеров и водонагревателей во Владивостоке. Монтаж под ключ с гарантией. Быстрый выезд по городу. АТМОС">
+<meta name="description" content="Установка кондиционеров и водонагревателей во Владивостоке. Монтаж под ключ с гарантией. Быстрый выезд.">
 <meta name="keywords" content="кондиционеры Владивосток, установка кондиционеров Владивосток, монтаж кондиционеров, водонагреватели Владивосток">
-<meta name="author" content="АТМОС">
-
 <meta property="og:title" content="АТМОС — кондиционеры Владивосток">
-<meta property="og:description" content="Установка кондиционеров и водонагревателей во Владивостоке с гарантией">
-<meta property="og:type" content="website">
-
 <link rel="canonical" href="https://атмос25.рф/">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 
 <style>
 
-/* ===== RESET ===== */
+/* RESET */
 *{
 margin:0;
 padding:0;
@@ -36,20 +29,18 @@ color:#000;
 line-height:1.6;
 }
 
-/* ===== CONTAINER ===== */
 .container{
 width:90%;
 max-width:1200px;
 margin:auto;
 }
 
-/* ===== HERO ===== */
+/* HERO */
 .hero{
 min-height:100vh;
 display:flex;
 align-items:center;
 padding:60px 0;
-overflow:hidden;
 }
 
 .hero-wrapper{
@@ -61,166 +52,119 @@ gap:60px;
 
 .hero-content{
 max-width:650px;
-animation:fadeInUp 0.8s ease;
-}
-
-@keyframes fadeInUp{
-from{opacity:0;transform:translateY(20px);}
-to{opacity:1;transform:translateY(0);}
-}
-
-.logo-symbol{
-font-size:120px;
-line-height:1;
 }
 
 .logo{
 font-size:72px;
 font-weight:800;
-margin-bottom:20px;
+margin-bottom:10px;
 }
 
 h1{
 font-size:52px;
 margin-bottom:20px;
-font-weight:800;
 }
 
 .subtitle{
 font-size:24px;
-margin-bottom:30px;
+margin-bottom:20px;
+opacity:0.85;
 }
 
-/* ===== BUTTONS ===== */
+/* CTA */
 .buttons{
 display:flex;
-gap:20px;
-margin-top:40px;
+gap:15px;
+margin-top:25px;
 flex-wrap:wrap;
 }
 
 .btn{
-display:inline-block;
-padding:16px 34px;
+padding:16px 28px;
 border-radius:16px;
 text-decoration:none;
 font-weight:700;
+display:inline-block;
 transition:0.3s;
-box-shadow:0 10px 25px rgba(0,0,0,0.15);
+box-shadow:0 10px 25px rgba(0,0,0,0.12);
 }
 
 .btn-black{
 background:linear-gradient(135deg,#000,#222);
-color:white;
+color:#fff;
 }
 
 .btn-white{
 background:rgba(255,255,255,0.9);
-color:black;
+color:#000;
+border:1px solid rgba(0,0,0,0.1);
 }
 
 .btn:hover{
 transform:translateY(-4px);
-box-shadow:0 15px 35px rgba(0,0,0,0.25);
 }
 
-/* ===== HERO IMAGE ===== */
-.hero-image{
-flex:1;
-position:relative;
-display:flex;
-justify-content:center;
-align-items:center;
-}
-
+/* HERO IMAGE */
 .hero-image img{
 width:100%;
 max-width:520px;
 border-radius:25px;
-object-fit:cover;
 box-shadow:0 30px 80px rgba(0,0,0,0.25);
-transition:0.5s;
 }
 
-.hero-image img:hover{
-transform:scale(1.03);
-}
-
-.hero-overlay{
-position:absolute;
-inset:0;
-background:radial-gradient(circle at center, rgba(255,255,255,0), rgba(0,0,0,0.25));
-border-radius:25px;
-pointer-events:none;
-}
-
-/* ===== SECTIONS ===== */
+/* SECTIONS */
 .section{
-padding:100px 0;
+padding:90px 0;
 }
 
 .section-title{
-font-size:42px;
-margin-bottom:50px;
+font-size:40px;
+text-align:center;
+margin-bottom:40px;
 font-weight:800;
 }
 
+/* FEATURES */
 .features{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
-margin-top:50px;
 }
 
 .card{
 background:rgba(255,255,255,0.85);
-backdrop-filter:blur(10px);
 padding:20px;
 border-radius:20px;
-box-shadow:0 10px 30px rgba(0,0,0,0.08);
 transition:0.3s;
-border:1px solid rgba(255,255,255,0.4);
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
 .card:hover{
 transform:translateY(-5px);
-box-shadow:0 15px 40px rgba(0,0,0,0.2);
 }
 
-/* ===== FORM ===== */
-.lead-form{
-display:flex;
-flex-direction:column;
-gap:15px;
-max-width:500px;
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:14px;
+margin-bottom:15px;
 }
 
-.lead-form input{
-padding:15px;
-border-radius:12px;
-border:1px solid rgba(0,0,0,0.2);
-font-size:16px;
-outline:none;
-}
-
-.lead-form input:focus{
-border-color:#000;
-}
-
-/* ===== CONTACTS ===== */
+/* CONTACTS */
 .contacts{
 font-size:20px;
+text-align:center;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 .footer{
 padding:40px 0;
 text-align:center;
-font-size:14px;
-opacity:0.7;
+opacity:0.6;
 }
 
-/* ===== WHATSAPP FLOAT ===== */
+/* WHATSAPP FLOAT */
 .whatsapp-float{
 position:fixed;
 bottom:20px;
@@ -235,8 +179,9 @@ align-items:center;
 justify-content:center;
 font-size:28px;
 text-decoration:none;
+z-index:999999;
+cursor:pointer;
 box-shadow:0 10px 25px rgba(0,0,0,0.3);
-z-index:999;
 transition:0.3s;
 }
 
@@ -244,13 +189,8 @@ transition:0.3s;
 transform:scale(1.1);
 }
 
-/* ===== MOBILE ===== */
+/* MOBILE */
 @media(max-width:768px){
-
-.hero{
-padding:40px 0;
-min-height:auto;
-}
 
 .hero-wrapper{
 flex-direction:column;
@@ -258,37 +198,12 @@ text-align:center;
 gap:25px;
 }
 
-.hero-content{
-max-width:100%;
-}
-
-.logo-symbol{
-font-size:60px;
-}
-
-.logo{
-font-size:44px;
-}
-
-h1{
-font-size:28px;
-line-height:1.2;
-}
-
-.subtitle{
-font-size:18px;
-margin-bottom:20px;
-}
-
-.hero-image img{
-max-width:100%;
-border-radius:18px;
-box-shadow:0 15px 40px rgba(0,0,0,0.2);
-}
+h1{font-size:28px;}
+.logo{font-size:44px;}
+.subtitle{font-size:18px;}
 
 .buttons{
 flex-direction:column;
-gap:12px;
 }
 
 .btn{
@@ -296,26 +211,8 @@ width:100%;
 text-align:center;
 }
 
-.features{
-grid-template-columns:1fr;
-}
-
-.section{
-padding:60px 0;
-}
-
 .section-title{
-font-size:28px;
-text-align:center;
-margin-bottom:30px;
-}
-
-.whatsapp-float{
-width:55px;
-height:55px;
-font-size:24px;
-bottom:15px;
-right:15px;
+font-size:26px;
 }
 
 }
@@ -331,31 +228,34 @@ right:15px;
 
     <div class="hero-content">
 
-      <div class="logo-symbol">△</div>
       <div class="logo">АТМОС</div>
 
-      <h1>Установка кондиционеров во Владивостоке — монтаж и обслуживание</h1>
+      <h1>Установка кондиционеров во Владивостоке</h1>
 
       <p class="subtitle">
-        Профессиональный монтаж кондиционеров и водонагревателей
-      </p>
-
-      <p style="font-weight:600;">
-        ✔ Выезд по Владивостоку<br>
-        ✔ Установка за 1 день<br>
-        ✔ Гарантия на монтаж
+        Монтаж, обслуживание и подбор климатической техники с гарантией
       </p>
 
       <div class="buttons">
-        <a class="btn btn-black" href="tel:+79240006030">Позвонить</a>
-        <a class="btn btn-white" href="https://wa.me/79240006030">WhatsApp</a>
+
+        <a class="btn btn-black" href="tel:+79240006030">
+          📞 Позвонить +7 924 000-60-30
+        </a>
+
+        <a class="btn btn-white" href="javascript:void(0)" onclick="openWhatsApp()">
+          💬 Бесплатная консультация
+        </a>
+
       </div>
+
+      <p style="margin-top:12px;font-size:14px;opacity:0.6;">
+        Ответим в течение 5 минут
+      </p>
 
     </div>
 
     <div class="hero-image">
-      <img src="images/kond4.jpg" alt="Кондиционер Владивосток">
-      <div class="hero-overlay"></div>
+      <img src="images/kond4.jpg" alt="Кондиционеры Владивосток">
     </div>
 
   </div>
@@ -365,64 +265,31 @@ right:15px;
 <section class="section">
   <div class="container">
 
-    <h2 class="section-title">Услуги</h2>
+    <h2 class="section-title">Наши работы</h2>
 
     <div class="features">
 
       <div class="card">
-        <h3>Кондиционеры Владивосток</h3>
-        <p>Подбор и установка для квартир и домов.</p>
+        <img src="images/kond1.jpg">
+        <h3>Настенный кондиционер</h3>
       </div>
 
       <div class="card">
-        <h3>Водонагреватели</h3>
-        <p>Накопительные и проточные модели.</p>
+        <img src="images/kond2.jpg">
+        <h3>Кондиционер для офиса</h3>
       </div>
 
       <div class="card">
-        <h3>Монтаж кондиционеров</h3>
-        <p>Профессиональная установка под ключ.</p>
+        <img src="images/kond3.jpg">
+        <h3>Инверторный кондиционер</h3>
       </div>
 
       <div class="card">
-        <h3>Консультация</h3>
-        <p>Помощь в подборе техники.</p>
+        <img src="images/kond4.jpg">
+        <h3>Монтаж под ключ</h3>
       </div>
 
     </div>
-
-  </div>
-</section>
-
-<!-- SEO TEXT -->
-<section class="section">
-  <div class="container">
-
-    <h2 class="section-title">Установка кондиционеров Владивосток</h2>
-
-    <p style="max-width:800px;">
-      Компания АТМОС выполняет установку кондиционеров во Владивостоке.
-      Мы работаем с квартирами, домами и офисами. Предлагаем монтаж под ключ,
-      гарантию и быстрый выезд по городу.
-    </p>
-
-  </div>
-</section>
-
-<!-- FORM -->
-<section class="section">
-  <div class="container">
-
-    <h2 class="section-title">Оставьте заявку</h2>
-
-    <form class="lead-form" onsubmit="sendToWhatsApp(event)">
-
-      <input type="text" id="name" placeholder="Ваше имя" required>
-      <input type="tel" id="phone" placeholder="Ваш телефон" required>
-
-      <button type="submit" class="btn btn-black">Отправить заявку</button>
-
-    </form>
 
   </div>
 </section>
@@ -434,9 +301,8 @@ right:15px;
     <h2 class="section-title">Контакты</h2>
 
     <div class="contacts">
-      <p><strong>Телефон:</strong> +7 924 000-60-30</p>
-      <p><strong>Город:</strong> Владивосток</p>
-      <p><strong>Сайт:</strong> атмос25.рф</p>
+      <p>📞 +7 924 000-60-30</p>
+      <p>📍 Владивосток</p>
     </div>
 
   </div>
@@ -446,23 +312,24 @@ right:15px;
 АТМОС © 2026
 </footer>
 
-<!-- FLOAT BUTTON -->
-<a href="https://wa.me/79240006030" class="whatsapp-float" target="_blank">
-💬
-</a>
+<!-- WHATSAPP FLOAT -->
+<a class="whatsapp-float" onclick="openWhatsApp()">💬</a>
 
 <script>
-function sendToWhatsApp(event){
-event.preventDefault();
+function openWhatsApp() {
 
-let name = document.getElementById('name').value;
-let phone = document.getElementById('phone').value;
+    const phone = "79240006030";
+    const text = "Здравствуйте! Хочу узнать стоимость установки кондиционера во Владивостоке.";
 
-let message = `Новая заявка:%0AИмя: ${name}%0AТелефон: ${phone}`;
+    const encodedText = encodeURIComponent(text);
 
-let url = `https://wa.me/79240006030?text=${message}`;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
-window.open(url, '_blank');
+    const url = isMobile
+        ? `https://wa.me/${phone}?text=${encodedText}`
+        : `https://web.whatsapp.com/send?phone=${phone}&text=${encodedText}`;
+
+    window.open(url, "_blank");
 }
 </script>
 
